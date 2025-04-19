@@ -1,3 +1,24 @@
+# preprocessing.py
+#
+# This module provides utility functions for loading, exploring, cleaning, and preprocessing a dataset.
+# It prepares the data for training and evaluation by applying techniques such as:
+# - Exploratory Data Analysis (EDA)
+# - Missing value imputation
+# - Train-test split
+# - Standard scaling
+# - Handling class imbalance using SMOTE
+#
+# Main Functions:
+# - load_data: Loads a dataset from a CSV file
+# - eda: Performs exploratory data analysis with visualizations
+# - handle_missing_data: Fills missing values using median imputation
+# - split_features_target: Splits the dataset into features and target
+# - split_train_test: Splits the dataset into train and test sets
+# - preprocess_data: Loads and fully preprocesses the dataset for model training
+#
+# Example usage:
+# X_train_res, X_test, y_train_res, y_test = preprocess_data('../data/dataset.csv')
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
