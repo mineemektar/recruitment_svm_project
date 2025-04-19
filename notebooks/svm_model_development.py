@@ -1,4 +1,6 @@
-# This script loads and preprocesses the dataset, splits it into training and test sets,
+# svm_model_development.py
+
+#This script loads and preprocesses the dataset, splits it into training and test sets,
 # trains an SVM classifier, and evaluates its performance.
 
 import pandas as pd
