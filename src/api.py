@@ -1,3 +1,5 @@
+# app.py
+#
 # This FastAPI application serves a trained SVM model to make predictions
 # based on `experience_years` and `technical_score` inputs.
 #
@@ -11,6 +13,7 @@
 # {
 #     "prediction": 0
 # }
+
 
 from pydantic import BaseModel
 import joblib
