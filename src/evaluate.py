@@ -1,3 +1,14 @@
+# evaluate.py
+#
+# This module provides visualization utilities to evaluate classification models.
+# It includes:
+# 1. Confusion matrix plotting to observe true vs. predicted classes.
+# 2. ROC curve plotting to assess the model's performance across thresholds.
+#
+# Usage:
+# Call `plot_confusion_matrix(y_true, y_pred)` after predictions.
+# Call `plot_roc_curve(y_true, y_pred_proba)` using predicted probabilities.
+
 from sklearn.metrics import confusion_matrix, roc_curve, auc
 import matplotlib.pyplot as plt
 import seaborn as sns
